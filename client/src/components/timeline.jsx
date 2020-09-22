@@ -22,7 +22,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <a  href='https://allen-shopper.herokuapp.com/' target="_blank">
-                      <img src='https://i.imgur.com/FiKjy39.png' height='490px' className='center' />
+                      <img src='https://i.imgur.com/FiKjy39.png' height='490px' className='center img' />
                       </a>
                         <p align='center'>A CRUD shopping website using a MERN stack. This project uses Stripe to process credit card payment.</p>
                       </div>
@@ -36,7 +36,7 @@ export default class Timeline extends Component {
                       <div className="timeline-label">
                       <a href='https://radiant-beach-69436.herokuapp.com/' target="_blank">
 
-                      <img src='https://i.imgur.com/bxMQFde.png' height='490px' className='center' />
+                      <img src='https://i.imgur.com/bxMQFde.png' height='490px' className='center img' />
                       </a>
 
                         <p align='center'>A GitHub repository used to practice the use of Redux and user authentication using JWT. I added a private messaging feature.</p>
@@ -51,7 +51,7 @@ export default class Timeline extends Component {
                       <div className="timeline-label">
                       <a href='https://protected-crag-37693.herokuapp.com/' target="_blank">
 
-                      <img src='https://i.imgur.com/LLvlva3.png' height='485px' className='center' />
+                      <img src='https://i.imgur.com/LLvlva3.png' height='485px' className='center img' />
                       </a>
 
                         <p align='center'>A web app that I created for myself to assist in solidifying coding terms and concepts. A virtual flashcard study tool.</p> 
