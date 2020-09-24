@@ -48,7 +48,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>Backend Development</h3>
-                    <p>Experience building servers and APIs using NodeJS, MongoDB, SQL, and AWS</p>
+                    <p>Experience building servers and APIs using NodeJS, MongoDB, and Express.</p>
                 </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>Version Control</h3>
-                    <p>I have experience using Git and Github version control to track and build websites.</p>
+                    <p>I have experience using Github and Git version control to track and build websites.</p>
                 </div>
                 </div>
             </div>

@@ -24,7 +24,7 @@ export default class Timeline extends Component {
                         <a  href='https://allen-shopper.herokuapp.com/' target="_blank">
                       <img src='https://i.imgur.com/FiKjy39.png' height='490px' className='center img' />
                       </a>
-                        <p align='center'>A CRUD shopping website using a MERN stack. This project uses Stripe to process credit card payment.</p>
+                        <p align='center'>A CRUD shopping website using a MERN stack. This project uses Stripe to process credit card payments, and Nodemailer to email receipts from the backend.</p>
                       </div>
                     </div>
                   </article>
@@ -39,7 +39,7 @@ export default class Timeline extends Component {
                       <img src='https://i.imgur.com/bxMQFde.png' height='490px' className='center img' />
                       </a>
 
-                        <p align='center'>A GitHub repository used to practice the use of Redux and user authentication using JWT. I added a private messaging feature.</p>
+                        <p align='center'>A public Github repository I used to practice the use of Redux and user authentication using JWT. Private messaging feature coming soon!</p>
                       </div>
                     </div>
                   </article>
@@ -54,7 +54,7 @@ export default class Timeline extends Component {
                       <img src='https://i.imgur.com/LLvlva3.png' height='485px' className='center img' />
                       </a>
 
-                        <p align='center'>A web app that I created for myself to assist in solidifying coding terms and concepts. A virtual flashcard study tool.</p> 
+                        <p align='center'>A web app that I created for myself to help study coding terms and concepts. A virtual flashcard study tool.</p> 
                       </div>
                     </div>
                   </article>
