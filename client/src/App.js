@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Landing from "./components/Landing"
+import About from "./components/About"
+import Projects from "./components/Projects"
+import Contact from  "./components/Contact"
 import './App.css';
-import Sidebar from './components/sidebar'
-import Introduction from './components/introduction'
-import About from './components/about'
-import Timeline from './components/timeline'
+
 
 class App extends Component {
   render() {
     return (
-      <div id="colorlib-page">
-        <div id="container-wrap">
-         	<Sidebar></Sidebar>
-				<div id="colorlib-main">
-					<Introduction></Introduction>
-					<About></About>
-					<Timeline></Timeline>
-          	</div>
-      	</div>
-      </div>
+      <Router>
+       <Route exact path="/" component={Landing}/>
+        <Switch>
+        <Route exact path="/about" component={About}/>
+        <Route exact path="/projects" component={Projects}/>
+        <Route exact path="/contact" component={Contact}/>
+        </Switch>
+      </Router>
     );
   }
 }
