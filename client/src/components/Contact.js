@@ -62,7 +62,7 @@ export default function Contact() {
           </a>
         </div>
       </div>
-      <input id="i1" type="text" value="allen.hsing@gmail.com"></input>
+      <input style={{display:"none"}} id="i1" type="text" value="allen.hsing@gmail.com"></input>
     </div>
   );
 }

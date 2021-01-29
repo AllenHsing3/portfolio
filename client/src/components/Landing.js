@@ -6,6 +6,23 @@ export default function Landing() {
     const [hoverProjects, toggleProjects] = useState("I am")
     const [hoverContact, toggleContact] = useState("Allen")
 
+    const width = window.innerWidth;
+
+    const breakpoint = 1000;
+    
+    if (width < breakpoint) {
+        setTimeout(function(){
+            toggleHello("About")
+            toggleProjects("Projects")
+            toggleContact("Contact")
+            const links = document.getElementsByTagName('p')
+            links[0].classList.add('reAnimate')
+            links[1].classList.add('reAnimate')
+            links[2].classList.add('reAnimate')
+
+        }, 6000)
+    }
+
     return (
         <div className="container-main">
             <div >
