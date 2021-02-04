@@ -40,7 +40,7 @@ export default function About() {
           >
             You can get a closer look at my ever growing tech stack below!
           </p>
-          <a className="red small" href="https://drive.google.com/file/d/1gxoiCrDVTkU8EdLSQu6b_8cWScwlpNie/view?usp=sharing">
+          <a className="red small" href="https://drive.google.com/file/d/1me8dIOFopzh9ZgyrmClu4Jo8JVKQ6VlY/view?usp=sharing">
             <p className="animate-hover-link link">My resume</p>
           </a>
         </div>

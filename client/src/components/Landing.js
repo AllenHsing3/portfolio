@@ -20,7 +20,7 @@ export default function Landing() {
             links[1].classList.add('reAnimate')
             links[2].classList.add('reAnimate')
 
-        }, 6000)
+        }, 4500)
     }
 
     return (
