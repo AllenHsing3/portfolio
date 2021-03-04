@@ -106,7 +106,7 @@ body {
   position: absolute;
   size: 7rem;
   right: 25%;
-  top: 15%;
+  top: 12%;
   animation-duration: 3s;
   transition: 0.3s;
 }
@@ -122,77 +122,6 @@ body {
   }
 }
 
-/* Tablet */
-
-@media only screen and (max-width: 660px) {
-  body {
-    display: flex;
-    flex-direction: column;
-  }
-  .x-large {
-    font-size: 7rem;
-  }
-
-  .large {
-    font-size: 3rem;
-  }
-  .container-main {
-    margin-left: 10%;
-    height: 95vh;
-  }
-  .container-contact {
-    margin-left: 5%;
-    width: 90%;
-  }
-  .home-btn {
-    position: absolute;
-    size: 7rem;
-    right: 5%;
-    top: 5%;
-    animation-duration: 3s;
-    transition: 0.3s;
-  }
-  .reAnimate{
-    animation-name: fade-in;
-    animation-duration: 3s;
-  }
-}
-
-/* Mobile Stuff */
-/* Phone */
-@media only screen and (max-width: 768px) {
-  body {
-    display: flex;
-    flex-direction: column;
-  }
-  .x-large {
-    font-size: 4rem;
-  }
-
-  .large {
-    font-size: 3rem;
-  }
-  .container-main {
-    margin-left: 5%;
-    height: 95vh;
-  }
-  .container-contact {
-    margin-left: 5%;
-    width: 90%;
-  }
-  .home-btn {
-    position: absolute;
-    size: 7rem;
-    right: 5%;
-    top: 5%;
-    animation-duration: 3s;
-    transition: 0.3s;
-  }
-  .reAnimate{
-    animation-name: fade-in;
-    animation-duration: 3s;
-  }
-}
 
 /* LowRes  */
 @media only screen and (max-width: 1280px) {
@@ -228,4 +157,81 @@ body {
     animation-duration: 3s;
   }
 }
+/* Tablet */
 
+/* Tablet */
+
+
+
+
+
+
+/* Mobile Stuff */
+/* Phone */
+@media only screen and (max-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .x-large {
+    font-size: 8rem;
+  }
+
+  .large {
+    font-size: 3rem;
+  }
+  .container-main {
+    margin-left: 5%;
+    height: 95vh;
+  }
+  .container-contact {
+    margin-left: 5%;
+    width: 90%;
+  }
+  .home-btn {
+    position: absolute;
+    size: 7rem;
+    right: 5%;
+    top: 5%;
+    animation-duration: 3s;
+    transition: 0.3s;
+  }
+  .reAnimate{
+    animation-name: fade-in;
+    animation-duration: 3s;
+  }
+}
+
+@media only screen and (max-width: 612px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .x-large {
+    font-size: 4rem;
+  }
+
+  .large {
+    font-size: 4rem;
+  }
+  .container-main {
+    margin-left: 3%;
+    height: 95vh;
+  }
+  .container-contact {
+    margin-left: 5%;
+    width: 90%;
+  }
+  .home-btn {
+    position: absolute;
+    size: 7rem;
+    right: 5%;
+    top: 5%;
+    animation-duration: 3s;
+    transition: 0.3s;
+  }
+  .reAnimate{
+    animation-name: fade-in;
+    animation-duration: 3s;
+  }
+}

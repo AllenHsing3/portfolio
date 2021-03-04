@@ -5,8 +5,13 @@ import { Link } from "react-router-dom";
 export default function Contact() {
     const [toggleEmail, setToggleEmail] = useState('allen.hsing@gmail.com')
   const copyEmail = () => {
-    document.querySelector("#i1").select();
-    document.execCommand("copy");
+    var input = document.createElement('textarea');
+    input.innerHTML = 'allen.hsing@gmail.com';
+    document.body.appendChild(input);
+    input.select();
+    var result = document.execCommand('copy');
+    document.body.removeChild(input);
+    return result;
   };
   return (
     <div>
@@ -62,7 +67,7 @@ export default function Contact() {
           </a>
         </div>
       </div>
-      <input style={{display:"none"}} id="i1" type="text" value="allen.hsing@gmail.com"></input>
     </div>
   );
 }
+

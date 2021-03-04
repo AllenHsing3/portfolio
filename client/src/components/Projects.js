@@ -7,7 +7,7 @@ export default function Projects() {
     <div>
       <HomeButton />
       <div className="container-contact">
-        <div style={{marginTop:"25vh"}}>
+        <div style={{marginTop:"15vh"}}>
           <a className="white " href="http://www.cyclops.watch" target="_blank">
             <p className="x-large animate-hover">Cyclops</p>
           </a>
